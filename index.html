@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ページのタイトル</title>
+  <script src="https://unpkg.com/htmx.org@1.9.3"></script>
+</head>
+
+<body>
+  <div id="content">
+    <p>元のコンテンツ</p>
+    <button hx-get="/new-content.html" hx-swap="outerHTML">更新</button>
+  </div>
+</body>
+
+</html>
