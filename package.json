@@ -1,0 +1,18 @@
+{
+  "name": "htmx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "htmx.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Susumu Tomita <your.email@example.com> (http://yourwebsite.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "htmx.org": "^1.9.12"
+  },
+  "devDependencies": {
+    "daisyui": "^4.11.1",
+    "tailwindcss": "^3.4.3"
+  }
+}
